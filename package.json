@@ -2,7 +2,7 @@
 	"name": "sveltekit-2",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "npx tailwindcss -i ./src/input.css -o ./src/styles.css && vite dev",
 		"build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css && vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
@@ -10,7 +10,8 @@
 		"test": "playwright test",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"tailwind": "npx tailwindcss -i ./src/input.css -o ./src/styles.css"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
