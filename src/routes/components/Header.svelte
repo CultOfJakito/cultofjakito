@@ -3,7 +3,30 @@
 
 	import github from '$lib/images/github-mark-white.svg'
 	import youtube from '$lib/images/youtube.svg'
+
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.getElementById("blocker")?.remove();
+	});
 </script>
+
+<style>
+	.blocker {
+		background-image: url("https://i.redd.it/r65eufx731061.jpg");
+  		height: 100%;
+		width: 100%;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		position: absolute;
+	}
+</style>
+
+<body>
+	<img alt="" class="blocker" id="blocker">
+</body>
+
 
 <header class="w-full pt-3">
 	<navbar class="w-full flex flex-row items-center justify-evenly ">
