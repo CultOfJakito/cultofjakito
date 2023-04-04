@@ -37,11 +37,11 @@
 			<li class="inline" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li class="inline" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">Projects</a>
+			<li class="inline" aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+				<a href="/projects">Projects</a>
 			</li>
-			<li class="inline" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">Events</a>
+			<li class="inline" aria-current={$page.url.pathname === '/events' ? 'page' : undefined}>
+				<a href="/events">Events</a>
 			</li>
 		</ul>
 		<ul class="w-1/6 flex flex-row items-center justify-start">

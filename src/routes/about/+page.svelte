@@ -87,7 +87,7 @@
 
 		<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow" id="devBox">
 			<div class="flex flex-col items-center pb-10">
-				<img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="" alt=":3"/>
+				<img class="w-24 h-24 mb-3 rounded-full shadow-lg mt-3" src="" alt=":3"/>
 				<h5 class="mb-1 text-xl font-medium text-gray-900">Person</h5>
 				<span class="text-sm text-gray-500 ">Developer</span>
 				<p class="text-sm text-gray-500">Does stuff :3</p>
