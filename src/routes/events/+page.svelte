@@ -5,7 +5,7 @@
 <div class="mt-20">
     <h1 class="text-center text-3xl text-violet-400">Whats Happening</h1>
     <div>
-        <div class="bg-white border border-gray-200 rounded-lg shadow w-3/5 h-min m-auto mt-10">
+        <div class=" border border-gray-200 rounded-lg shadow w-3/5 h-min m-auto mt-10">
             <h1 class="text-2xl text-center mt-5">Ultracrypt Dev Stream</h1>
             <div class="w-full">
                 <img src="" alt="">

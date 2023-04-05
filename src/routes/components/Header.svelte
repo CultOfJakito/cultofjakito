@@ -45,8 +45,8 @@
 			</li>
 		</ul>
 		<ul class="w-1/6 flex flex-row items-center justify-start">
-			<li class="inline mr-4"><a href="https://github.com/CultOfJakito"><img class="h-8 w-8" src={github} alt=""></a></li>
-			<li class="inline"><a href="https://www.youtube.com/channel/UCU531rHxXbIcDG4u_K_QbEw"><img class="h-min w-8" src={youtube} alt=""></a></li>
+			<li class="inline mr-4"><a href="https://github.com/CultOfJakito"><img class="h-9 w-9 p-1 hover:p-0 transition-all" src={github} alt=""></a></li>
+			<li class="inline"><a href="https://www.youtube.com/channel/UCU531rHxXbIcDG4u_K_QbEw"><img class="h-min w-9 p-1 hover:p-0 transition-all" src={youtube} alt=""></a></li>
 		</ul>
 	</navbar>
 </header>

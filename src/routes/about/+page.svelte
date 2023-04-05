@@ -75,7 +75,7 @@
 
 <div class="w-full mt-20">
 	<section class="w-full">
-		<h1 class="m-auto text-center text-3xl">Meet the Team</h1>
+		<h1 class="m-auto text-center text-3xl text-violet-400">Meet the Team</h1>
 
 		<div class="flex w-4/5 justify-center m-auto flex-col" id="rowHolder">
 			
@@ -85,12 +85,12 @@
 				
 		</div>
 
-		<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow" id="devBox">
+		<div class="w-full max-w-sm border border-gray-200 rounded-lg shadow" id="devBox">
 			<div class="flex flex-col items-center pb-10">
 				<img class="w-24 h-24 mb-3 rounded-full shadow-lg mt-3" src="" alt=":3"/>
-				<h5 class="mb-1 text-xl font-medium text-gray-900">Person</h5>
-				<span class="text-sm text-gray-500 ">Developer</span>
-				<p class="text-sm text-gray-500">Does stuff :3</p>
+				<h5 class="mb-1 text-xl font-medium ">Person</h5>
+				<span class="text-sm  ">Developer</span>
+				<p class="text-sm ">Does stuff :3</p>
 			</div>
 		</div>
 	</section>
